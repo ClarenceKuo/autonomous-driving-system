@@ -42,9 +42,9 @@ class WaypointUpdater(object):
 
         self.base_waypoints = None
         self.waypoints_2d = None
-        self.waypoint_tree = None
+        self.waypoints_tree = None
         self.pose = None
-        self.fp = open("debug-log.txt", "w")
+        self.fp = open("/home/student/Desktop/autonomous-driving-system/ros/debuglog.txt", "w")
         self.loop()
     
     def loop(self):
@@ -59,7 +59,7 @@ class WaypointUpdater(object):
     def get_closest_waypoint_idx(self):
         x = self.pose.pose.position.x
         y = self.pose.pose.position.y
-        closest_idx = self.waypoint_tree.query([x,y],1)[1]
+        closest_idx = self.waypoints_tree.query([x,y],1)[1]
 
         #Check if closest is ahead or behind the vihicle
         cl_vect = np.array(self.waypoints_2d[closest_idx])
@@ -83,18 +83,19 @@ class WaypointUpdater(object):
 
     def waypoints_cb(self, waypoints):
         self.base_waypoints = waypoints
+        self.fp.write("waypoints.waypoints type:")
+        self.fp.write(str(type(waypoints.waypoints)))
+        self.fp.write("\n")
         if not self.waypoints_2d:
             self.waypoints_2d = [[waypoint.pose.pose.position.x, waypoint.pose.pose.position.y] for waypoint in waypoints.waypoints]
             self.waypoints_tree = KDTree(self.waypoints_2d)
-        self.fp.write("waypoints.waypoints:\n")
-        self.fp.write(waypoints.waypoints)
-        self.fp.wriite("\n")
-        self.fp.write("waypoints_2d:\n")
-        self.fp.write(self.waypoints_2d)
-        self.fp.wriite("\n")
-        self.fp.write("waypoints_tree:\n")
-        self.fp.write(self.waypoints_tree)
-        self.fp.wriite("\n")
+
+        self.fp.write("waypoints_2d type:")
+        self.fp.write(str(type(self.waypoints_2d)))
+        self.fp.write("\n")
+        self.fp.write("waypoints_tree type:")
+        self.fp.write(str(type(self.waypoints_tree)))
+        self.fp.write("\n")
 
     def traffic_cb(self, msg):
         # TODO: Callback for /traffic_waypoint message. Implement
