@@ -84,5 +84,3 @@ Specific to these libraries, the simulator grader and Carla use the following:
 | TensorRT | N/A | N/A |
 | OpenCV | 3.2.0-dev | 2.4.8 |
 | OpenMP | N/A | N/A |
-
-We are working on a fix to line up the OpenCV versions between the two.
