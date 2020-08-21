@@ -34,7 +34,7 @@ that we have created in the `__init__` function.
 class DBWNode(object):
     def __init__(self):
         rospy.init_node('dbw_node')
-
+        self.fp = open("/home/student/Desktop/autonomous-driving-system/ros/dbw_log.txt", "w")
         vehicle_mass = rospy.get_param('~vehicle_mass', 1736.35)
         fuel_capacity = rospy.get_param('~fuel_capacity', 13.5)
         brake_deadband = rospy.get_param('~brake_deadband', .1)
@@ -83,26 +83,31 @@ class DBWNode(object):
 
     def loop(self):
         rate = rospy.Rate(50) # 50Hz
+        #self.fp.write("Enter while loop\n")
         while not rospy.is_shutdown():
-
-            if self.current_vel and self.linear_vel and self.angular_vel:
+            # self.fp.write("cv:{}, lv:{}, av:{}".format(self.current_vel,self.linear_vel,self.angular_vel))
+            if not None in (self.current_vel, self.linear_vel, self.angular_vel):
                 self.throttle, self.brake, self.steering = self.controller.control(self.current_vel,
                                                                 self.angular_vel,
                                                                 self.linear_vel,
                                                                 self.dbw_enabled)
+            # self.fp.write("en:{}, T:{}, B:{}, S:{}\n".format(self.dbw_enabled,self.throttle, self.brake, self.steering))
             if self.dbw_enabled:
               self.publish(self.throttle, self.brake, self.steering)
             rate.sleep()
     
     def dbw_enabled_cb(self, msg):
-        self.dbw_enabled = msg
+        # self.fp.write("msg:{}\n".format(msg.data))
+        self.dbw_enabled = msg.data
 
     def twist_cb(self, msg):
         self.linear_vel = msg.twist.linear.x
         self.angular_vel = msg.twist.angular.z
+        # self.fp.write(" twist msg:{}, lv:{},av:{}\n".format(msg, self.linear_vel, self.angular_vel))
 
     def velocity_cb(self, msg):
-        self.curernt_vel = msg.twist.linear.x
+        self.current_vel = msg.twist.linear.x
+        #self.fp.write(" velocty msg:{}, cv:{}\n".format(msg, self.current_vel))
 
     def publish(self, throttle, brake, steer):
         tcmd = ThrottleCmd()
