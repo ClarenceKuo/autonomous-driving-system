@@ -74,4 +74,4 @@ class Controller(object):
             #Torque - Neuton * meter
             self.brake = abs(decel) * self.vehicle_mass * self.wheel_radius
         # rospy.logwarn("T:{}, B:{}, S:{}".format(throttle,brake,steering))
-        return 1, brake, steering
+        return throttle, brake, steering
