@@ -82,9 +82,13 @@ class WaypointUpdater(object):
 
     def waypoints_cb(self, waypoints):
         self.base_waypoints = waypoints
+        print(waypoints.waypoints)
         if not self.waypoints_2d:
+            print("storing waypoints")
             self.waypoints_2d = [[waypoint.pose.pose.position.x, waypoint.pose.pose.position.y] for waypoint in waypoints.waypoints]
+            print(self.waypoints_2d)
             self.waypoints_tree = KDTree(self.waypoints_2d)
+            print(self.waypoints_tree)
 
         pass
 
