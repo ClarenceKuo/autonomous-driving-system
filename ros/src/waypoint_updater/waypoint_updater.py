@@ -44,6 +44,7 @@ class WaypointUpdater(object):
         self.waypoints_2d = None
         self.waypoint_tree = None
         self.pose = None
+        self.fp = open("debug-log.txt", "w")
         self.loop()
     
     def loop(self):
@@ -82,15 +83,18 @@ class WaypointUpdater(object):
 
     def waypoints_cb(self, waypoints):
         self.base_waypoints = waypoints
-        print(waypoints.waypoints)
         if not self.waypoints_2d:
-            print("storing waypoints")
             self.waypoints_2d = [[waypoint.pose.pose.position.x, waypoint.pose.pose.position.y] for waypoint in waypoints.waypoints]
-            print(self.waypoints_2d)
             self.waypoints_tree = KDTree(self.waypoints_2d)
-            print(self.waypoints_tree)
-
-        pass
+        self.fp.write("waypoints.waypoints:\n")
+        self.fp.write(waypoints.waypoints)
+        self.fp.wriite("\n")
+        self.fp.write("waypoints_2d:\n")
+        self.fp.write(self.waypoints_2d)
+        self.fp.wriite("\n")
+        self.fp.write("waypoints_tree:\n")
+        self.fp.write(self.waypoints_tree)
+        self.fp.wriite("\n")
 
     def traffic_cb(self, msg):
         # TODO: Callback for /traffic_waypoint message. Implement
