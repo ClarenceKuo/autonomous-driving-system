@@ -4,6 +4,7 @@ import rospy
 from geometry_msgs.msg import PoseStamped
 from styx_msgs.msg import Lane, Waypoint
 from scipy.spatial import KDTree
+import numpy as np
 
 import math
 
@@ -39,17 +40,17 @@ class WaypointUpdater(object):
 
         self.final_waypoints_pub = rospy.Publisher('final_waypoints', Lane, queue_size=1)
 
-       self.base_waypoints = None
-       self.waypoints_2d = None
-       self.waypoint_tree = None
-       self.pose = None
-       self.loop()
+        self.base_waypoints = None
+        self.waypoints_2d = None
+        self.waypoint_tree = None
+        self.pose = None
+        self.loop()
     
     def loop(self):
         # maybe try to tune down to 30hz
         rate = rospy.Rate(50)
         while not rospy.is_shutdown():
-            if self.psoe and self.base_waypoints:
+            if self.pose and self.base_waypoints:
                 closest_waypoint_idx = self.get_closest_waypoint_idx()
                 self.publish_waypoints(closest_waypoint_idx)
             rate.sleep()
@@ -73,7 +74,7 @@ class WaypointUpdater(object):
     def publish_waypoints(self, closest_dix):
         lane = Lane()
         lane.header = self.base_waypoints.header
-        lane.waypoints = self.base_waypoints.waypoints[closest_idx:closest_idx + LOOKAHEAD_WPS]
+        lane.waypoints = self.base_waypoints.waypoints[closest_dix:closest_dix + LOOKAHEAD_WPS]
         self.final_waypoints_pub.publish(lane)
 
     def pose_cb(self, msg):
