@@ -10,6 +10,7 @@ from light_classification.tl_classifier import TLClassifier
 import tf
 import cv2
 import yaml
+from scipy.spatial import KDTree
 
 STATE_COUNT_THRESHOLD = 3
 
@@ -21,6 +22,8 @@ class TLDetector(object):
         self.waypoints = None
         self.camera_image = None
         self.lights = []
+        self.waypoints_tree = None
+        self.fp = open("/home/student/Desktop/autonomous-driving-system/ros/detect_log.txt", "w")
 
         sub1 = rospy.Subscriber('/current_pose', PoseStamped, self.pose_cb)
         sub2 = rospy.Subscriber('/base_waypoints', Lane, self.waypoints_cb)
@@ -56,8 +59,11 @@ class TLDetector(object):
 
     def waypoints_cb(self, waypoints):
         self.waypoints = waypoints
+        waypoints_2d = [[waypoint.pose.pose.position.x, waypoint.pose.pose.position.y] for waypoint in waypoints.waypoints]
+        self.waypoints_tree = KDTree(waypoints_2d)
 
     def traffic_cb(self, msg):
+        # self.fp.write("traffic cb msg:{}\n".format(msg))
         self.lights = msg.lights
 
     def image_cb(self, msg):
@@ -71,7 +77,7 @@ class TLDetector(object):
         self.has_image = True
         self.camera_image = msg
         light_wp, state = self.process_traffic_lights()
-
+        # self.fp.write("image cb state reached\n")
         '''
         Publish upcoming red lights at camera frequency.
         Each predicted state has to occur `STATE_COUNT_THRESHOLD` number
@@ -79,29 +85,36 @@ class TLDetector(object):
         used.
         '''
         if self.state != state:
+            # self.fp.write("image cb state if reached\n")
             self.state_count = 0
             self.state = state
         elif self.state_count >= STATE_COUNT_THRESHOLD:
+            # self.fp.write("image cb state elif reached\n")
             self.last_state = self.state
-            light_wp = light_wp if state == TrafficLight.RED else -1
+            if state == TrafficLight.RED or state == TrafficLight.YELLOW:
+                # self.fp.write("image cb state elif RED reached\n")
+                light_wp = light_wp
+            else: 
+                light_wp = -1
             self.last_wp = light_wp
+            # self.fp.write("image cb state pub RED\n")
             self.upcoming_red_light_pub.publish(Int32(light_wp))
         else:
+            # self.fp.write("image cb state else reached\n")
             self.upcoming_red_light_pub.publish(Int32(self.last_wp))
         self.state_count += 1
 
-    def get_closest_waypoint(self, pose):
+    def get_closest_waypoint(self, x, y):
         """Identifies the closest path waypoint to the given position
             https://en.wikipedia.org/wiki/Closest_pair_of_points_problem
         Args:
-            pose (Pose): position to match a waypoint to
+            x,y: position to match a waypoint to
 
         Returns:
             int: index of the closest waypoint in self.waypoints
 
         """
-        #TODO implement
-        return 0
+        return self.waypoints_tree.query([x,y], 1)[1]
 
     def get_light_state(self, light):
         """Determines the current color of the traffic light
@@ -132,17 +145,25 @@ class TLDetector(object):
 
         """
         light = None
+        line_wp_idx = None
 
         # List of positions that correspond to the line to stop in front of for a given intersection
         stop_line_positions = self.config['stop_line_positions']
         if(self.pose):
-            car_position = self.get_closest_waypoint(self.pose.pose)
-
-        #TODO find the closest visible traffic light (if one exists)
-
+            car_position = self.get_closest_waypoint(self.pose.pose.position.x, self.pose.pose.position.y)
+            diff = len(self.waypoints.waypoints)
+            for i, lt in enumerate(self.lights):
+                line = stop_line_positions[i]
+                temp_wp_idx = self.get_closest_waypoint(line[0],line[1])
+                d = temp_wp_idx - car_position
+                if d >= 0 and d < diff:
+                    diff = d
+                    light = lt
+                    line_wp_idx = temp_wp_idx
+        # self.fp.write("process_traffic_lights reached\n")
         if light:
             state = self.get_light_state(light)
-            return light_wp, state
+            return line_wp_idx, state
         self.waypoints = None
         return -1, TrafficLight.UNKNOWN
 
