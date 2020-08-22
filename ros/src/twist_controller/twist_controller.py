@@ -5,7 +5,6 @@ from lowpass import LowPassFilter
 GAS_DENSITY = 2.858
 ONE_MPH = 0.44704
 
-
 class Controller(object):
     def __init__(self, 
                  vehicle_mass, 
@@ -20,19 +19,21 @@ class Controller(object):
                  max_steer_angle):
         self.yaw = YawController(wheel_base, steer_ratio, 0.1, max_lat_accel, max_steer_angle)
         self.fp = open("/home/student/Desktop/autonomous-driving-system/ros/twist_log.txt", "w")
-        kp = 0.15
-        ki = 0.0003
-        kd = 3.0
+        kp = 0.3
+        ki = 0.1
+        kd = 0.1
         min_throttle = 0.0
-        max_throttle = 1.0
+        max_throttle = 0.3
         self.throttle_controller = PID(kp, ki, kd, min_throttle, max_throttle)
         
         # cut-off frequency for LPF
-        tau = 0.5
+        tau_v = 0.1
+        tau_err = 0.3
         # time frame
         ts = 0.02
 
-        self.vel_lpf = LowPassFilter(tau,ts)
+        self.vel_lpf = LowPassFilter(tau_v,ts)
+        self.err_lpf = LowPassFilter(tau_err,ts)
 
         self.vehicle_mass = vehicle_mass
         self.fuel_capacity = fuel_capacity
@@ -52,26 +53,29 @@ class Controller(object):
             self.throttle_controller.reset()
             return 0.0, 0.0, 0.0
         current_vel = self.vel_lpf.filt(current_vel)
-
+        
         steering = self.yaw.get_steering(linear_vel, angular_vel, current_vel)
         current_time = rospy.get_time()
         time_interval = current_time - self.last_time
         self.last_time = current_time
         
         vel_error = linear_vel - current_vel
+        vel_error = self.err_lpf.filt(vel_error)
         self.last_vel = current_vel
         throttle = self.throttle_controller.step(vel_error, time_interval)
         brake = 0
         
         #stop the car
-        if linear_vel == 0 and current_vel < 0.1:
+        if linear_vel == 0.0 and vel_error < 0.1:
             throttle = 0
             brake = 700
-        elif throttle < 0.1 and vel_error < 0:
+        elif vel_error < -0.08:
             throttle = 0
             decel = max(vel_error, self.decel_limit)
-
             #Torque - Neuton * meter
-            self.brake = abs(decel) * self.vehicle_mass * self.wheel_radius
+            brake = abs(decel) * self.vehicle_mass * self.wheel_radius
+        elif throttle < 0.05:
+            throttle = 0.0
+            brake = 0.0
         # rospy.logwarn("T:{}, B:{}, S:{}".format(throttle,brake,steering))
         return throttle, brake, steering

@@ -41,23 +41,22 @@ class WaypointUpdater(object):
         # rospy.Subscriber('/obstacle_waypoint', Lane, self.waypoints_cb)
 
 
-        self.final_waypoints_pub = rospy.Publisher('/final_waypoints', Lane, queue_size=1)
+        self.final_waypoints_pub = rospy.Publisher('final_waypoints', Lane, queue_size=1)
         self.base_lane = None
         self.pose = None
         self.stopline_wp_idx = -1
 
         self.waypoints_2d = None
         self.waypoints_tree = None
-        self.pose = None
         self.fp = open("/home/student/Desktop/autonomous-driving-system/ros/update_log.txt", "w")
         self.fp.write("Init completed\n")
         self.loop()
     
     def loop(self):
         # maybe try to tune down to 30hz
-        rate = rospy.Rate(50)
+        rate = rospy.Rate(10)
         while not rospy.is_shutdown():
-            if self.pose and self.base_lane:
+            if self.pose and self.waypoints_tree:
                 closest_waypoint_idx = self.get_closest_waypoint_idx()
                 self.publish_waypoints(closest_waypoint_idx)
             rate.sleep()
@@ -77,17 +76,6 @@ class WaypointUpdater(object):
             closest_idx = (closest_idx + 1) % len(self.waypoints_2d)
         
         return closest_idx
-    def generate_lane(self):
-        lane = Lane()
-        lane.header = self.base_lane.header
-        closest_idx = self.get_closest_waypoint_idx()
-        base_waypoints = self.base_lane.waypoints[closest_idx:closest_idx+LOOKAHEAD_WPS]
-        if self.stopline_wp_idx == -1 or self.stopline_wp_idx >= closest_idx + LOOKAHEAD_WPS:
-            lane.waypoints = base_waypoints
-        else:
-            lane.waypoints = self.decelerate_waypoints(base_waypoints,closest_idx)[:]
-            self.fp.write("lane waypoints decelerated\n")
-        return lane
 
     def decelerate_waypoints(self, waypoints, closest_idx):
         self.fp.write("decelerate waypoints reached\n")
@@ -103,16 +91,24 @@ class WaypointUpdater(object):
             if vel < 1.0:
                 vel = 0.0
             p.twist.twist.linear.x = min(vel, wp.twist.twist.linear.x)
-            if i % 10 == 0:
-                self.fp.write("p: {}\n".format(p))
+            # if i % 10 == 0:
+            #     self.fp.write("p: {}\n".format(p))
 
             temp.append(p)
 
-        return temp[:]
+        return temp
 
     def publish_waypoints(self, closest_idx):
-        final_lane = self.generate_lane()
-        self.final_waypoints_pub.publish(final_lane)
+        lane = Lane()
+        lane.header = self.base_lane.header
+        furthest_idx = closest_idx + LOOKAHEAD_WPS
+        lane.waypoints = self.base_lane.waypoints[closest_idx:furthest_idx]
+        if self.stopline_wp_idx == -1 or self.stopline_wp_idx >= furthest_idx:
+            self.final_waypoints_pub.publish(lane)
+        else:
+            lane.waypoints = self.decelerate_waypoints(lane.waypoints,closest_idx)
+            self.fp.write("lane waypoints decelerated\n")
+            self.final_waypoints_pub.publish(lane)
 
     def pose_cb(self, msg):
         self.pose = msg

@@ -65,7 +65,7 @@ class DBWNode(object):
                                          BrakeCmd, queue_size=1)
 
         self.throttle = 0
-        self.brake = 0
+        self.brake = 700
         self.steering = 0
 
         self.current_vel = None
