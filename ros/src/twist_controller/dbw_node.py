@@ -107,7 +107,7 @@ class DBWNode(object):
 
     def velocity_cb(self, msg):
         self.current_vel = msg.twist.linear.x
-        #self.fp.write(" velocty msg:{}, cv:{}\n".format(msg, self.current_vel))
+        self.fp.write(" velocty msg:{}\n".format(msg))
 
     def publish(self, throttle, brake, steer):
         tcmd = ThrottleCmd()

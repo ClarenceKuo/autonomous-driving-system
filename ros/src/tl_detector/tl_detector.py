@@ -124,7 +124,6 @@ class TLDetector(object):
 
         Returns:
             int: ID of traffic light color (specified in styx_msgs/TrafficLight)
-
         """
         if(not self.has_image):
             self.prev_light_loc = None
