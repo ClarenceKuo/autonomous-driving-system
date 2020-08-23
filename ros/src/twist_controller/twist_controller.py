@@ -10,20 +10,20 @@ class Controller(object):
                  vehicle_mass, 
                  fuel_capacity, 
                  brake_deadband, 
-                 decel_limit, 
+                 decel_limit,               
                  accel_limit, 
                  wheel_radius, 
                  wheel_base, 
-                 steer_ratio,
+                 steer_ratio,                                                                                         
                  max_lat_accel,
                  max_steer_angle):
         self.yaw = YawController(wheel_base, steer_ratio, 0.1, max_lat_accel, max_steer_angle)
         self.fp = open("/home/student/Desktop/autonomous-driving-system/ros/twist_log.txt", "w")
-        kp = 0.3
-        ki = 0.1
-        kd = 0.1
+        kp = 0.15
+        ki = 0.0003
+        kd = 3
         min_throttle = 0.0
-        max_throttle = 0.3
+        max_throttle = 0.5
         self.throttle_controller = PID(kp, ki, kd, min_throttle, max_throttle)
         
         # cut-off frequency for LPF
@@ -44,7 +44,6 @@ class Controller(object):
 
         self.last_time = rospy.get_time()
         self.last_vel = 0
-        self.fp.write("Init completed\n")
 
     def control(self, current_vel, angular_vel, linear_vel, dbw_enabled):
         #self.fp.write("en:{}\n".format(dbw_enabled))

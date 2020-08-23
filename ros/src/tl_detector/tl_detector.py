@@ -10,7 +10,6 @@ import tf
 import cv2
 import yaml
 from scipy.spatial import KDTree
-import math
 import numpy as np
 
 STATE_COUNT_THRESHOLD = 3
@@ -30,13 +29,7 @@ class TLDetector(object):
         sub1 = rospy.Subscriber('/current_pose', PoseStamped, self.pose_cb)
         sub2 = rospy.Subscriber('/base_waypoints', Lane, self.waypoints_cb)
 
-        '''
-        /vehicle/traffic_lights provides you with the location of the traffic light in 3D map space and
-        helps you acquire an accurate ground truth data source for the traffic light
-        classifier by sending the current color state of all traffic lights in the
-        simulator. When testing on the vehicle, the color state will not be available. You'll need to
-        rely on the position of the light and the camera image to predict it.
-        '''
+
         sub3 = rospy.Subscriber('/vehicle/traffic_lights', TrafficLightArray, self.traffic_cb)
         sub6 = rospy.Subscriber('/image_color', Image, self.image_cb)
 
@@ -60,29 +53,17 @@ class TLDetector(object):
         self.loop()
     
     def loop(self):
-        rate = rospy.Rate(3)
+        rate = rospy.Rate(30)
         while not rospy.is_shutdown():
             if self.pose != None and self.waypoints != None and self.camera_image is not None:
                 light_wp, state = self.process_traffic_lights()
 
-                if state == TrafficLight.GREEN:
-                    self.green_state_cnt += 1
-                elif state == TrafficLight.RED:
-                    self.green_state_cnt = 0
-                    if self.red_state_cnt < STATE_COUNT_THRESHOLD * 2:
-                        self.red_state_cnt += 1
-                elif self.red_state_cnt > 0:
-                    self.red_state_cnt -= 1
-                    if self.green_state_cnt >= STATE_COUNT_THRESHOLD:
-                        self.red_state_cnt = 0
-
-                if self.red_state_cnt >= STATE_COUNT_THRESHOLD:
+                if state  == TrafficLight.RED:
                     self.last_wp = light_wp
                     self.upcoming_red_light_pub.publish(Int32(self.last_wp))   
                 else:
                     self.last_wp = -1
-                    if self.red_state_cnt == 0:
-                        self.upcoming_red_light_pub.publish(Int32(self.last_wp))
+                    self.upcoming_red_light_pub.publish(Int32(self.last_wp))
                 self.has_image = False
                 self.camera_image = None
         rate.sleep()

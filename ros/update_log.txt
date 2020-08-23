@@ -1,0 +1,1635 @@
+Init completed
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = 292
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+traffic cb activated, stop idx = 292
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+traffic cb activated, stop idx = 292
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+traffic cb activated, stop idx = 292
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+traffic cb activated, stop idx = 292
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+traffic cb activated, stop idx = 292
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+traffic cb activated, stop idx = 292
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+traffic cb activated, stop idx = 292
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+traffic cb activated, stop idx = 292
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+traffic cb activated, stop idx = 292
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = 2047
+traffic cb activated, stop idx = 2047
+traffic cb activated, stop idx = 2047
+traffic cb activated, stop idx = 2047
+traffic cb activated, stop idx = 2047
+traffic cb activated, stop idx = 2047
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = 2047
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = 2047
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+traffic cb activated, stop idx = 2047
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+traffic cb activated, stop idx = 2047
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+traffic cb activated, stop idx = 2047
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = 2047
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+traffic cb activated, stop idx = 2580
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = 2580
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = 2580
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = 2580
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+traffic cb activated, stop idx = 2580
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = 2580
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = 6294
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = 6294
+traffic cb activated, stop idx = 6294
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = 6294
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = 6294
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = 6294
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = 6294
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+traffic cb activated, stop idx = 7008
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = 7008
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+traffic cb activated, stop idx = 7008
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = 7008
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+traffic cb activated, stop idx = 7008
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = 7008
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = 7008
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+traffic cb activated, stop idx = 7008
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+traffic cb activated, stop idx = 7008
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+traffic cb activated, stop idx = 7008
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+traffic cb activated, stop idx = 7008
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+traffic cb activated, stop idx = 7008
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+traffic cb activated, stop idx = 7008
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+traffic cb activated, stop idx = 7008
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+traffic cb activated, stop idx = 7008
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = 8540
+traffic cb activated, stop idx = 8540
+traffic cb activated, stop idx = 8540
+traffic cb activated, stop idx = 8540
+traffic cb activated, stop idx = 8540
+traffic cb activated, stop idx = 8540
+traffic cb activated, stop idx = 8540
+traffic cb activated, stop idx = 8540
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = 8540
+traffic cb activated, stop idx = 8540
+traffic cb activated, stop idx = 8540
+traffic cb activated, stop idx = 8540
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = 8540
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = 8540
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = 8540
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = 8540
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = 8540
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = 8540
+traffic cb activated, stop idx = 8540
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = 8540
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = 8540
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+traffic cb activated, stop idx = 8540
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+traffic cb activated, stop idx = 8540
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+traffic cb activated, stop idx = 8540
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+traffic cb activated, stop idx = 8540
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+traffic cb activated, stop idx = 8540
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+traffic cb activated, stop idx = 8540
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = 8540
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+decelerate waypoints reached
+lane waypoints decelerated
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = 9733
+traffic cb activated, stop idx = 9733
+traffic cb activated, stop idx = 9733
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = 9733
+traffic cb activated, stop idx = 9733
+traffic cb activated, stop idx = 9733
+traffic cb activated, stop idx = 9733
+traffic cb activated, stop idx = 9733
+traffic cb activated, stop idx = 9733
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
+traffic cb activated, stop idx = -1
