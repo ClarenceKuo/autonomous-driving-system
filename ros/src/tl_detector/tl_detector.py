@@ -2,8 +2,7 @@
 import rospy
 from std_msgs.msg import Int32
 from geometry_msgs.msg import PoseStamped, Pose
-from styx_msgs.msg import TrafficLightArray, TrafficLight
-from styx_msgs.msg import Lane
+from styx_msgs.msg import TrafficLightArray, TrafficLight, Lane
 from sensor_msgs.msg import Image
 from cv_bridge import CvBridge
 from light_classification.tl_classifier import TLClassifier
@@ -11,6 +10,8 @@ import tf
 import cv2
 import yaml
 from scipy.spatial import KDTree
+import math
+import numpy as np
 
 STATE_COUNT_THRESHOLD = 3
 
@@ -23,6 +24,7 @@ class TLDetector(object):
         self.camera_image = None
         self.lights = []
         self.waypoints_tree = None
+        self.imgcount = self.red_state_cnt = self.green_state_cnt = 0
         self.fp = open("/home/student/Desktop/autonomous-driving-system/ros/detect_log.txt", "w")
 
         sub1 = rospy.Subscriber('/current_pose', PoseStamped, self.pose_cb)
@@ -44,7 +46,10 @@ class TLDetector(object):
         self.upcoming_red_light_pub = rospy.Publisher('/traffic_waypoint', Int32, queue_size=1)
 
         self.bridge = CvBridge()
-        self.light_classifier = TLClassifier()
+
+        # Classifier
+        self.light_classifier = TLClassifier(0.4)
+
         self.listener = tf.TransformListener()
 
         self.state = TrafficLight.UNKNOWN
@@ -52,7 +57,35 @@ class TLDetector(object):
         self.last_wp = -1
         self.state_count = 0
 
-        rospy.spin()
+        self.loop()
+    
+    def loop(self):
+        rate = rospy.Rate(3)
+        while not rospy.is_shutdown():
+            if self.pose != None and self.waypoints != None and self.camera_image is not None:
+                light_wp, state = self.process_traffic_lights()
+
+                if state == TrafficLight.GREEN:
+                    self.green_state_cnt += 1
+                elif state == TrafficLight.RED:
+                    self.green_state_cnt = 0
+                    if self.red_state_cnt < STATE_COUNT_THRESHOLD * 2:
+                        self.red_state_cnt += 1
+                elif self.red_state_cnt > 0:
+                    self.red_state_cnt -= 1
+                    if self.green_state_cnt >= STATE_COUNT_THRESHOLD:
+                        self.red_state_cnt = 0
+
+                if self.red_state_cnt >= STATE_COUNT_THRESHOLD:
+                    self.last_wp = light_wp
+                    self.upcoming_red_light_pub.publish(Int32(self.last_wp))   
+                else:
+                    self.last_wp = -1
+                    if self.red_state_cnt == 0:
+                        self.upcoming_red_light_pub.publish(Int32(self.last_wp))
+                self.has_image = False
+                self.camera_image = None
+        rate.sleep()
 
     def pose_cb(self, msg):
         self.pose = msg
@@ -125,7 +158,7 @@ class TLDetector(object):
         Returns:
             int: ID of traffic light color (specified in styx_msgs/TrafficLight)
         """
-        if(not self.has_image):
+        if not self.has_image:
             self.prev_light_loc = None
             return False
 
