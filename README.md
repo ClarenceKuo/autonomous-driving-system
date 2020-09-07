@@ -1,7 +1,7 @@
 # Programming a Real Self-Driving Car
 
 # Summary
-This porject developes a self-driving prgram to control a simulated car with ROS and TensorFlow.
+This porject develope a self-driving prgram to control a simulated car with ROS and TensorFlow.
 ### Main parts of this project
 - Trajectory Planner
 - Traffic light detector trained with Tensorflow/YOLO V3
